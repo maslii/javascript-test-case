@@ -1,0 +1,35 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    background-color: #D0E8FE;
+}
+
+.btn-light-warning {
+    background-color:  #FBFDD2;
+}
+
+.grid {
+    display: none;
+    grid-gap: 0.25em;
+}
+
+.item {
+    background-color:  #FBFDD2;
+    display: flex;
+    color: rgba(0,0,0,0.5);
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    padding: 0.5em;
+    transition: color 0.5s linear;
+    width: 5em;
+    height: 5em;
+}
+
+.row-ui {
+    height: 100%;
+}
+.row-grid {
+    display: none;
+    height: 100%;
+}
